@@ -377,7 +377,7 @@ export function getDefaultSettings() {
       description:
       'The default value of join limit. ' +
       'Can be overwritten per relation in relations advanced options. ' +
-      'Set to -1 to remove the limit. Explanation:' +
+      'Set to -1 to remove the limit. Explanation: ' +
       'The limit is a global upper limit on the documents scanned (from the destination). ' +
       'The number of documents scanned per shard is computed dynamically based on the number of shards taken by the indices'
     },
